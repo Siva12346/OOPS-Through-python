@@ -1,0 +1,28 @@
+class worker():
+    def __init__(self,name,age,salary):
+        self.salary=salary
+        self.name=name
+        self.age=age
+
+class childworker1(worker):
+    def __init__(self,name,salary,age):
+        self.name=name
+        self.salary=salary
+        self.age=age
+
+class childworker2(worker):
+    def __init__(self,age,name,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+
+w1 = worker('ankala',22,40000)
+w2 = worker('siva',24,400000)
+
+print(w1.name)
+print(w1.age)
+print(w1.salary)
+
+print(w2.name)
+print(w2.age)
+print(w2.salary)
