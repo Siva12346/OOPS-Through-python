@@ -1,0 +1,28 @@
+class worker1:
+    def name(self):
+        print("Ankala is his name")
+    def salary(self):
+        print("40000 is his salary")
+    def age(self):
+        print("24 is his age")
+
+class worker2:
+    def salary(self):
+        print("50000 is his salary")
+    def name(self):
+        print("siva is his name")
+    def age(self):
+        print("43 is his age")
+
+
+def func(obj):
+    obj.name()
+    obj.salary()
+    obj.age()
+
+
+obj_w = worker1()
+func(obj_w)
+
+obj_w2 = worker2()
+func(obj_w2)
